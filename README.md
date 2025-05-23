@@ -35,13 +35,23 @@ Detailed method and design are available at `report.md`.
 
 # Run
 
-1. handfeature.ipynb
-1. LLM-feature-extraction/bert-base-chinese-train.ipynb
-1. LLM-feature-extraction/bert-base-chinese-pred.ipynb
-1. increasePCA.ipynb
-1. preprocess.py
-1. (*alternative*) LightGBM_all.py
-1. (*alternative*) LightGBM_pred_all.py
-1. [*optional*] eval.ipynb
-1. rst_csv2txt.py
-1. [*optional*] vote.py
+1. **feature extraction**
+   1. hand-crafted features
+      1. handfeature.ipynb
+   1. LLM-based features
+      1. LLM-feature-extraction/bert-base-chinese-train.ipynb
+      1. LLM-feature-extraction/bert-base-chinese-pred.ipynb
+   1. feature dimensionality reduction (LLM-based)
+      1. increasePCA.ipynb
+   1. feature normalization
+      1. preprocess.py
+1. **model train**
+   1. (*alternative*) LightGBM_all.py
+1. **model predict**
+   1. (*alternative*) LightGBM_pred_all.py
+1. **model test (trainset)**
+   1. [*optional*] eval.ipynb
+1. **result format change**
+   1. rst_csv2txt.py
+1. **multi-model voting**
+   1. [*optional*] vote.py
