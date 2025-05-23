@@ -32,3 +32,16 @@ Detailed method and design are available at `report.md`.
 - LightGBM
 - Random Forest
 - MLP
+
+# Run
+
+1. handfeature.ipynb
+1. LLM-feature-extraction/bert-base-chinese-train.ipynb
+1. LLM-feature-extraction/bert-base-chinese-pred.ipynb
+1. increasePCA.ipynb
+1. preprocess.py
+1. (*alternative*) LightGBM_all.py
+1. (*alternative*) LightGBM_pred_all.py
+1. [*optional*] eval.ipynb
+1. rst_csv2txt.py
+1. [*optional*] vote.py
